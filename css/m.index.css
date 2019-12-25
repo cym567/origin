@@ -1,0 +1,33 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+/* 顶部导航栏 */
+.m-nav {
+    height: 80px;
+    background-color: rgba(0,0,0,.6);
+}
+
+
+.m-nul{
+    float: right;
+    width: 1000px;
+    height: 20px;
+    /* text-align: center; */
+    /* margin: 0 auto; */
+}
+.m-nav>ul>li {
+    float: left;
+    font-size: 14px;
+    margin: 30px 10px 0 10px;
+
+}
+.m-nav ul>li a {
+    color: #fff;
+}
+
+.m-nav .m-dropdown {
+    display: none;
+    background-color: rgba(0,0,0,.6);
+}
